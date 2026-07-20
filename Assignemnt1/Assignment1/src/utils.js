@@ -106,3 +106,4 @@ const chunk=(array,Chunk)=>{
     return result;
 }
 
+export default {GroupCount,sumBy,uniqueBy,sortByThenBy,chunk}

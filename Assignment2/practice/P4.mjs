@@ -1,14 +1,37 @@
-const report = [
-    { name: "Alice", postCount: 10 },
-    { name: "Bob", postCount: 10 },
-    { name: "Charlie", postCount: 8 },
-    { name: "David", postCount: 10 },
-    { name: "Eve", postCount: 9 }
-];
+const baseUrl = "https://jsonplaceholder.typicode.com";
 
-// Sort the report
-const res=[...report].sort((a, b) => 
-    (b.postCount - a.postCount) || a.name.localeCompare(b.name)
-);
+const fetchAPI = async (url) => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("API error");
+    return res.json();
+};
 
-console.log(res);
+const main = async () => {
+    try {
+       
+        const [users, posts] = await Promise.all([
+            fetchAPI(`${baseUrl}/users`),
+            fetchAPI(`${baseUrl}/posts`)
+        ]);
+
+     
+        const report = users.map(user => ({
+            name: user.name,
+            postCount: posts.filter(p => p.userId === user.id).length
+        }));
+
+       
+        const sortedReport = [...report].sort(
+            (a, b) =>
+                (b.postCount - a.postCount) || 
+                a.name.localeCompare(b.name)
+        );
+
+        console.log("Sorted Report:", sortedReport);
+
+    } catch (err) {
+        console.error(err.message);
+    }
+};
+
+main();

@@ -29,10 +29,10 @@ const main = async () => {
             
            
             const isValid = completedTodos + openTodos === totalTodos;
-            console.log(`  ✅ Valid: ${isValid}\n`);
+            console.log(`Valid: ${isValid}\n`);
             
             if (!isValid) {
-                console.error(`❌ MISMATCH for ${user.name}: ${completedTodos} + ${openTodos} ≠ ${totalTodos}`);
+                console.error(`MISMATCH for ${user.name}: ${completedTodos} + ${openTodos} ≠ ${totalTodos}`);
             }
         });
 

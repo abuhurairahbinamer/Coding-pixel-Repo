@@ -23,7 +23,7 @@ const main = async () => {
         }));
 
         // Compute summary stats using reduce
-        const stats = report.reduce(
+        const stats = [...report].reduce(
             (acc, user) => ({
                 totalUsers: acc.totalUsers + 1,
                 totalPosts: acc.totalPosts + user.postCount

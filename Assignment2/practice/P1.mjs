@@ -18,6 +18,8 @@ async function fetchSequential() {
   console.log("Users:", users.length);
   console.log("Posts:", posts.length);
   console.log("Todos:", todos.length);
+    users.length===10 && posts.length===100 && todos.length===200 ? console.log(" All Sequential data fetched successfully.") : console.log("Sequential Data fetch incomplete.");
+  
 }
 
 
@@ -41,6 +43,8 @@ async function fetchConcurrent() {
   console.log("Users:", users.length);
   console.log("Posts:", posts.length);
   console.log("Todos:", todos.length);
+  users.length===10 && posts.length===100 && todos.length===200 ? console.log(" All Concurrent data fetched successfully.") : console.log("Concurrent Data fetch incomplete.");
+  
 }
 
 

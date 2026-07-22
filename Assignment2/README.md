@@ -45,24 +45,24 @@ node index.js
 
 ---
 
-##  Sample Output
+##  Output
 
-User Insights Report
+ User Insights Report
 
-Chelsey Dietrich | Posts: 10 | Completed Todos: 0
-Clementina DuBuque | Posts: 10 | Completed Todos: 0
-Clementine Bauch | Posts: 10 | Completed Todos: 0
-Ervin Howell | Posts: 10 | Completed Todos: 0
-Glenna Reichert | Posts: 10 | Completed Todos: 0
-Kurtis Weissnat | Posts: 10 | Completed Todos: 0
-Leanne Graham | Posts: 10 | Completed Todos: 0
-Mrs. Dennis Schulist | Posts: 10 | Completed Todos: 0
-Nicholas Runolfsdottir V | Posts: 10 | Completed Todos: 0
-Patricia Lebsack | Posts: 10 | Completed Todos: 0
+Chelsey Dietrich | Posts: 10 | Completed Todos: 12
+Clementina DuBuque | Posts: 10 | Completed Todos: 12
+Clementine Bauch | Posts: 10 | Completed Todos: 7
+Ervin Howell | Posts: 10 | Completed Todos: 8
+Glenna Reichert | Posts: 10 | Completed Todos: 8
+Kurtis Weissnat | Posts: 10 | Completed Todos: 9
+Leanne Graham | Posts: 10 | Completed Todos: 11
+Mrs. Dennis Schulist | Posts: 10 | Completed Todos: 6
+Nicholas Runolfsdottir V | Posts: 10 | Completed Todos: 11
+Patricia Lebsack | Posts: 10 | Completed Todos: 6
 
-Summary:
+ Summary:
 Total Posts: 100
-Total Completed Todos: 0
+Total Completed Todos: 90
 Average Posts per User: 10.00
 
 ---

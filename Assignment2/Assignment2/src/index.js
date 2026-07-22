@@ -36,7 +36,7 @@ const main=async()=>{
         
         const userReport=[...users].map((user,idx)=>{
             const userPosts=[...posts].filter(p=>user.id===p.userId);
-            const userTodos=[...posts].filter(p=>user.id===p.userId);
+            const userTodos=[...todos].filter(p=>user.id===p.userId);
             return {
                 id:user.id,
                 userName:user.name,

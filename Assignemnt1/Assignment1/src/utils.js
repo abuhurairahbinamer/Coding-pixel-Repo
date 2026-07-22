@@ -95,7 +95,7 @@ const sortByThenBy = (array, keyFn1, keyFn2) =>
 
 
 const chunk=(array,Chunk)=>{
-  if( !array || array.size<=0){
+  if( !array || array.length<=0){
     return []
   }
     let result=[...array].map((element,idx,array)=>{

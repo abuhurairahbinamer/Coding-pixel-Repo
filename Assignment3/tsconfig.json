@@ -21,6 +21,6 @@
     "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "types/**/*"],
+  "include": ["src/**/*", "types/**/*","Practice/**/*"],
   "exclude": ["node_modules", "dist"]
 }

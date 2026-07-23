@@ -1,5 +1,8 @@
 import { UserReport, User, Post, Todo } from '../types/schema.ts';
-
+declare const process: {  // "Trust me, this exists in Node.js"
+  argv: string[];
+  exit(code?: number): void;
+};
 const url = "https://jsonplaceholder.typicode.com";
 
 const sortByThenBy = <T>(

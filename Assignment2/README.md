@@ -40,7 +40,7 @@ A Node.js command-line tool that fetches data from a public API and generates us
 ## Run the Project
 
 ```bash
-node index.js
+node npm run index.js
 ```
 
 ---

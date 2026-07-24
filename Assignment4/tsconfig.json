@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+
+    "module": "commonjs",
+    "target": "ES2020",
+    "types": ["node"],
+
+    "sourceMap": true,
+    "declaration": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["TS-project1/src/**/*", "TS-project2/src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -7,7 +7,8 @@
     "start": "ts-node TS-project1/src/index.ts",
     "start:project2": "ts-node TS-project2/src/index.ts",
     "lint": "eslint .",
-    "format": "prettier --write \"TS-project1/**/*.ts\" \"TS-project2/**/*.ts\" \"*.{js,json,md}\""
+    "format": "prettier --write \"TS-project1/**/*.ts\" \"TS-project2/**/*.ts\" \"*.{js,json,md}\"",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@ declare const process: {
   argv: string[];
   exit(code?: number): void;
 };
-const url = 'https://jsonplaceholder.typicode.com';
+const url = "https://jsonplaceholder.typicode.com";
 const sortByThenBy = <T>(
   array: T[],
   keyFn1: (item: T) => string | number,

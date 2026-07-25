@@ -44,3 +44,8 @@ This repository demonstrates a professional TypeScript monorepo setup with share
 ## Notes
 
 This repository is intended to show good tooling and collaboration practices for TypeScript projects in a shared workspace.
+
+
+P6 task evidence is: 
+## teammate`s repo is: 
+https://github.com/umariqbaldev/MERN-Week-1/pull/1  

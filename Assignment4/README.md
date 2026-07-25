@@ -21,17 +21,20 @@ This repository demonstrates a professional TypeScript monorepo setup with share
 ## How to verify
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Run lint and format checks for both projects:
+
    ```bash
    npm run lint
    npm run format:check
    ```
 
 3. Confirm `.env` is ignored:
+
    ```bash
    git status --ignored
    ```

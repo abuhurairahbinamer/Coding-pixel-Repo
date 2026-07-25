@@ -1,5 +1,5 @@
 import { UserReport, User, Post, Todo } from '../types/schema';
-declare const process: {  
+declare const process: {
   argv: string[];
   exit(code?: number): void;
 };
@@ -66,7 +66,7 @@ function getMinPosts(): number {
 }
 const main = async () => {
   const minPosts = getMinPosts();
-  console.log("starting Project 1");
+  console.log('starting Project 1');
   console.log(`Minimum Posts Filter: ${minPosts}`);
   try {
     const [users, posts, todos] = await Promise.all([

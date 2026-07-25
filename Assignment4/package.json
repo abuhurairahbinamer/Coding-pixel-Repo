@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-"scripts": {
-  "start": "ts-node TS-project1/src/index.ts",
-  "start:project2": "ts-node TS-project2/src/index.ts",
-  "lint": "eslint .",
-  "format": "prettier --write \"TS-project1/**/*.ts\" \"TS-project2/**/*.ts\" \"*.{js,json,md}\""
-},
+  "scripts": {
+    "start": "ts-node TS-project1/src/index.ts",
+    "start:project2": "ts-node TS-project2/src/index.ts",
+    "lint": "eslint .",
+    "format": "prettier --write \"TS-project1/**/*.ts\" \"TS-project2/**/*.ts\" \"*.{js,json,md}\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abuhurairahbinamer/Coding-pixel-Repo.git"

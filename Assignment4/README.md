@@ -30,7 +30,7 @@ This repository demonstrates a professional TypeScript monorepo setup with share
 
    ```bash
    npm run lint
-   npm run format:check
+   npm run format
    ```
 
 3. Confirm `.env` is ignored:
